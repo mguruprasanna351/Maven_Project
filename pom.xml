@@ -18,14 +18,14 @@
 	<description>Maven Standalone Application</description>
 
 	<properties>
-		<sonar.host.url>http://35.154.242.68:9000/</sonar.host.url>
+		<sonar.host.url>http://43.204.150.241:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
-
+ 
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -39,7 +39,7 @@
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
 		mvn scm:update -->
 	<scm>
-		<connection>scm:git:https://github.com/MithunTechnologiesDevOps/maven-standalone-application</connection>
+		<connection>scm:git:https://github.com/mguruprasanna351/Maven_Project.git</connection>
 		<developerConnection>scm:git:https://github.com/MithunTechnologiesDevOps/maven-standalone-application</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/MithunTechnologiesDevOps/maven-standalone-application</url>
@@ -57,7 +57,7 @@
 	      <!-- Build an executable JAR -->
 	      <groupId>org.apache.maven.plugins</groupId>
 	      <artifactId>maven-jar-plugin</artifactId>
-	      <version>3.1.0</version>
+	      <version>3.9.9</version>
 	      <configuration>
 	        <archive>
 	          <manifest>
