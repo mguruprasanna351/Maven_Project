@@ -27,7 +27,7 @@
 	<description>Maven_Project</description>
 
 	<properties>
-		<sonar.host.url>http://43.204.150.241:9000/</sonar.host.url>
+		<sonar.host.url>http://15.207.99.37:9000/</sonar.host.url>
 		<sonar.login>sonaradmin</sonar.login>
 		<sonar.password>Admin@123</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
