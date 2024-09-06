@@ -1,50 +1,35 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-
-	<groupId>com.mt</groupId>
-	<artifactId>Maven_Project</artifactId>
-	<version>1.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
-	
-	<properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <maven.compiler.release>17</maven.compiler.release>
-    </properties>
-	
-
-	<name>Maven_Project</name>
+<modelVersion>4.0.0</modelVersion>
+<groupId>com.mt</groupId>
+<artifactId>Maven_Project</artifactId>
+<version>1.0-SNAPSHOT</version>
+<packaging>jar</packaging>
+<properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.release>17</maven.compiler.release>
+</properties>
+<organization>
+	<name>Software Technologies</name>
 	<url>http://Softwaretechnologies.com</url>
-
-	<organization>
-		<name>Software Technologies</name>
-		<url>http://Softwaretechnologies.com</url>
-	</organization>
-	
-	<description>Maven_Project</description>
-
-	<properties>
-		<sonar.host.url>http://15.207.99.37:9000/</sonar.host.url>
-		<sonar.login>sonaradmin</sonar.login>
-		<sonar.password>Admin@123</sonar.password>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-
-	<dependencies>
- 
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
-
-	</dependencies>
-
-	<!-- Committing and updating changes through Maven, by using below mvn command. 
+</organization>
+<properties>
+	<sonar.host.url>http://15.207.99.37:9000/</sonar.host.url>
+	<sonar.login>sonaradmin</sonar.login>
+	<sonar.password>Admin@123</sonar.password>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
+<dependencies>
+	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>3.8.1</version>
+		<scope>test</scope>
+	</dependency>
+</dependencies>
+<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
 		mvn scm:update -->
 	<scm>
@@ -53,13 +38,10 @@
 		<tag>HEAD</tag>
 		<url>https://github.com/mguruprasanna351/Maven_Project.git</url>
 	</scm>
-
 	<issueManagement>
 		<system>GitHub</system>
 		<url>https://github.com/mguruprasanna351/Maven_Project.git/issues</url>
 	</issueManagement>
-
-	
 	<build>
 	  <plugins>
 	    <plugin>
@@ -79,5 +61,4 @@
 	    </plugin>
 	  </plugins>
 	</build>
-	
 </project>
