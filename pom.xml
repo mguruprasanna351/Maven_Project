@@ -1,21 +1,30 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
 
 	<groupId>com.mt</groupId>
-	<artifactId>maven-stanalone-application</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>Maven_Project</artifactId>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
+	
+	<properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.release>17</maven.compiler.release>
+    </properties>
+	
 
-	<name>maven-stanalone-application</name>
+	<name>Maven_Project</name>
 	<url>http://Softwaretechnologies.com</url>
 
 	<organization>
-		<name>Mithun Technologies</name>
+		<name>Software Technologies</name>
 		<url>http://Softwaretechnologies.com</url>
 	</organization>
 	
-	<description>Maven Standalone Application</description>
+	<description>Maven_Project</description>
 
 	<properties>
 		<sonar.host.url>http://43.204.150.241:9000/</sonar.host.url>
