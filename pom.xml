@@ -7,7 +7,7 @@
 <version>1.0-SNAPSHOT</version>
 <packaging>jar</packaging>
 <properties>
-	<sonar.host.url>http://15.207.99.37:9000/</sonar.host.url>
+	<sonar.host.url>http://65.2.37.239:9000/</sonar.host.url>
 	<sonar.login>sonaradmin</sonar.login>
 	<sonar.password>Admin@123</sonar.password>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -46,7 +46,7 @@
 	      <!-- Build an executable JAR -->
 	      <groupId>org.apache.maven.plugins</groupId>
 	      <artifactId>maven-jar-plugin</artifactId>
-	      <version>3.9.9</version>
+	      <version>3.9.12</version>
 	      <configuration>
 	        <archive>
 	          <manifest>
