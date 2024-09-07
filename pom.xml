@@ -26,6 +26,12 @@
 		<version>3.8.1</version>
 		<scope>test</scope>
 	</dependency>
+	<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+	<dependency>
+ 	        <groupId>log4j</groupId>
+ 	   	<artifactId>log4j</artifactId>
+ 	   	<version>1.2.17</version>
+	</dependency>	
 </dependencies>
 <!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
