@@ -7,7 +7,7 @@
 <version>1.0-SNAPSHOT</version>
 <packaging>jar</packaging>
 <properties>
-	<sonar.host.url>http://65.2.37.239:9000/</sonar.host.url>
+	<sonar.host.url>http://43.204.140.43:9000/</sonar.host.url>
 	<sonar.login>sonaradmin</sonar.login>
 	<sonar.password>Admin@123</sonar.password>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
