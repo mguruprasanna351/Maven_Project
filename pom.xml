@@ -9,7 +9,10 @@
 <properties>
 	<sonar.host.url>http://43.204.140.43:9000/</sonar.host.url>
 	<sonar.login>sonaradmin</sonar.login>
+	<!--
+	<sonar.login>sonaradmin</sonar.login>
 	<sonar.password>Admin@123</sonar.password>
+	-->
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
