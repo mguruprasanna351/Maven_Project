@@ -8,7 +8,7 @@
 <packaging>jar</packaging>
 <properties>
 	<sonar.host.url>http://43.204.140.43:9000/</sonar.host.url>
-	<sonar.login>sonaradmin</sonar.login>
+	<sonar.login>squ_11a1c571d7db6ce4bce2e49e49f87007e256f99c</sonar.login>
 	<!--
 	<sonar.login>sonaradmin</sonar.login>
 	<sonar.password>Admin@123</sonar.password>
